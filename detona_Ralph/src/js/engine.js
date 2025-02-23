@@ -28,7 +28,7 @@ function countDown(){
     if(state.values.currentTme <= 0 ){
         clearInterval(state.actions.countDownTimerId);
         clearInterval(state.actions.timerId);
-        alert("Game Over: " + state.values.result);
+        alert("Game Over: " + state.values.result +" Pontos.");
 
         if(state.values.result<=35){
             alert("Tá muito nervoso")
