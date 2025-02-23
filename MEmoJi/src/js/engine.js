@@ -89,6 +89,6 @@ function checkMatch(){
     openCards = [];
 
     if(document.querySelectorAll(".boxMatch").length === emojis.length){
-        alert("Em mim você encontra mundos inteiros, mas nunca saímos do lugar,  Muitas vezes sou silenciosa, mas meu conteúdo é barulho para quem gosta de aprender. ")
+        alert("HORIZONTAIS " + "\n" + " 3 - Soma dos lados de uma figura geometrica. " + "\n" + " 5 - Linha curva que delimita um circulo " + "\n" + " 9 - Medida tridimensional de espaço ocupado por um objeto " + "\n" + " 10 - Numero que representa uma parte de um inteiro, dividido por um denominador " + "\n" + " 11 - resultado da adição de dois ou mais numeros " + "\n" + " 12 - numero que, quando multiplicado por ele mesmo resulta em um determinado valor. ")
     }
 }
