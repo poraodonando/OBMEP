@@ -45,8 +45,12 @@
 <body>
 
 <div class="container">
-    <p>Esta pagina irá guiar voces por toda a nossa jornada e para cada resposta de enigma vocês poderão validar nessa pagina digitando a senha</p>
-    <h2>Digite a senha correta</h2>
+        <p>Já que voce foi muito corajoso eu irei deafiar voce a responder a algumas perguntas. Será que voce chega até o fim ???
+            <br>
+            Acredito que NÃO .... ahahahahahah
+            <br>
+        </p>    
+    <h2> Então me diga, qual é a linguagem da Natureza ??? </h2>
     <input type="text" id="userInput" placeholder="Digite aqui...">
     <button onclick="redirectPage()">Ir</button>
 </div>
@@ -55,7 +59,7 @@
     function redirectPage() {
         const input = document.getElementById('userInput').value.toLowerCase();
 
-        if (input === "resposta") {
+        if (input == "Matemática") {
             window.location.href = "https://poraodonando.github.io/CrazyGame/htmls/resposta.html";
         } else {
             alert("Resposta Errada...");
