@@ -89,6 +89,6 @@ function checkMatch(){
     openCards = [];
 
     if(document.querySelectorAll(".boxMatch").length === emojis.length){
-        alert("Você venceu!!!")
+        alert("Em mim você encontra mundos inteiros, mas nunca saímos do lugar,  Muitas vezes sou silenciosa, mas meu conteúdo é barulho para quem gosta de aprender. ")
     }
 }
