@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contagem Regressiva</title>
+        <SCRIPT language=JavaScript>
+        <!-- begin
+        var sHors = "00"; 
+        var sMins = "44";
+        var sSecs = 60;
+        function getSecs(){
+            sSecs--;
+            if(sSecs<0)
+            {sSecs=59;sMins--;if(sMins<=9)sMins="0"+sMins;}
+            if(sMins=="0-1")
+            {sMins=5;sHors--;if(sHors<=9)sHors="0"+sHors;}
+            if(sSecs<=9)sSecs="0"+sSecs;
+            if(sHors=="0-1")
+            {sHors="00";sMins="00";sSecs="00";
+            clock1.innerHTML=sHors+"<font color=#000000>:</font>"+sMins+"<font color=#000000>:</font>"+sSecs;}
+            else
+            {
+           clock1.innerHTML=sHors+"<font color=#000000>:</font>"+sMins+"<font color=#000000>:</font>"+sSecs;
+               setTimeout('getSecs()',1000);
+            }
+            }
+        //-->
+        </SCRIPT>
+        
+        </head>
+        <!-- Aqui começa o corpo da página -->
+        <body style="background-color: black;">
+        
+        <h2 align="center"><font color="#FFFFEF" face="tahoma">Contagem Regressiva</font></h2>
+        <hr color="#065ca5" width="100">
+            <div align="center"> 
+            <b><font color=#ff0000 size=500 face=arial><span id="clock1"></span><script>setTimeout('getSecs()',1000);</script></font></b><br>
+            </div>
+            <div style="text-align: center; color: #FFF;">
+                <h1>Olá CAMPEÃO!!!</h1>
+                <p>Parabéns se voce chegou aqui!!!</p>
+                <p>Agora vamos de uma charada para ir ao proximo passo...</p>
+
+                <p >Vá DISCRETAMENTE para o refeitório e procure respostas</p>
+
+            </div>
+            
+        </body>
+</html>
