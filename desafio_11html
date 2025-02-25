@@ -49,7 +49,7 @@
     <h2>Os quadradinhos do tabuleiro da fi gura devem ser preen
         chidos de modo que:
         • nos quadradinhos de cada uma das regiões em
-        forma de T apareçam os números 1, 3, 5 e 7 ou
+        forma de apareçam os números 1, 3, 5 e 7 ou
         os números 2, 4, 6 e 8;
         • em quadradinhos com um lado comum não apareçam
         números consecutivos.
